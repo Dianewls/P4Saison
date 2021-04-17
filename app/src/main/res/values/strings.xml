@@ -9,4 +9,6 @@
     <string name="titre_section1">Ete</string>
     <string name="titre_section2">Automne</string>
     <string name="titre_section3">Hiver</string>
+    <string name="titre_section4">Les 4 saisons</string>
+
 </resources>

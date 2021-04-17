@@ -14,6 +14,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.firida_diane.saison.NatureFragment;
 import com.firida_diane.saison.R;
+import com.firida_diane.saison.fragmentSaison;
 
 import java.util.Locale;
 
@@ -86,7 +87,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             case 3:
                 return NatureFragment.newInstance(3, mContext.getString(R.string.titre_section3),R.drawable.hiver);
             case 4:
-                return NatureFragment.newInstance(4, mContext.getString(R.string.titre_section3),R.drawable.pandas);
+                return  fragmentSaison.newInstance("Les 4 saisons");
         }
         return null;
     }
